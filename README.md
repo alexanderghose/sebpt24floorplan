@@ -15,29 +15,31 @@ In the _Intro to JSX_ lesson, you saw the following React basics:
 
 ## Set Up
 
-Please complete this lab in a React [CodeSandbox](https://codesandbox.io) named "Floor Plan".
+Please complete this lab on your local machine, and then push your code to github and submit the link.
+Instructions on making a new react project (using Vite) can be found in the 
+<a href="https://generalassembly.instructure.com/courses/463/pages/building-your-first-react-app-video?module_item_id=33207">course notes</a>
 
 ## Minimum Requirements
 
-1. Define each component in its own file. The naming convention to use for a component's file is UpperCamelCase, for example, a `<CodeSandbox>` component's file would be named `CodeSandbox.js` (`CodeSandbox.jsx` also works).
+1. Define each component in its own file. The naming convention to use for a component's file is UpperCamelCase, for example, a `<Torso>` component's file would be named `Torso.js` (`Torso.jsx` also works).
 
 2. Export each component from its module. For example:
 
 	```js
-	// CodeSandbox.js
+	// Torso.js
 	
 	import React from 'react';
 	
-	function CodeSandbox(props) {
+	function Torso(props) {
 	  return (
 	    <div>
-	      <h1>CodeSandbox</h1>
+	      <h1>Torso</h1>
 	    </div>
 	  );
 	}
 	
 	// Must export the component's function (or class)
-	export default CodeSandbox;
+	export default Torso;
 	```
 
 3. Define the following components as functions and code them such that they fulfill their responsibilities:
